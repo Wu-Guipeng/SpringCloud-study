@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-provider-dept-8002" />
         <module name="springcloud-api" />
+        <module name="springcloud-consumer-dept-feign" />
         <module name="springcloud-consumer-dept-80" />
         <module name="springcloud-provider-dept-8003" />
         <module name="springcloud-euerka-7001" />
@@ -25,6 +26,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springcloud-api" options="-parameters" />
       <module name="springcloud-consumer-dept-80" options="-parameters" />
+      <module name="springcloud-consumer-dept-feign" options="-parameters" />
       <module name="springcloud-euerka-7001" options="-parameters" />
       <module name="springcloud-euerka-7002" options="-parameters" />
       <module name="springcloud-euerka-7003" options="-parameters" />

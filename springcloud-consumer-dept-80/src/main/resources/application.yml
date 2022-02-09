@@ -1,0 +1,7 @@
+server:
+  port: 80
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://kunpeng1.com:7001/eureka/,http://kunpeng2.com:7002/eureka/,http://kunpeng3.com:7003/eureka/

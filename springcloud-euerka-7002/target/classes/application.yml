@@ -1,0 +1,11 @@
+server:
+  port: 7002
+eureka:
+  instance:
+    hostname: kunpeng2.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://kunpeng1.com:7001/eureka/,http://kunpeng3.com:7003/eureka/
+

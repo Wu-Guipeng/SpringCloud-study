@@ -21,7 +21,7 @@ eureka:
     service-url:
       defaultZone: http://kunpeng1.com:7001/eureka/,http://kunpeng2.com:7002/eureka/,http://kunpeng3.com:7003/eureka/
   instance:
-    instance-id: springcloud-provider-dept-8004
+    instance-id: springcloud-provider-dept-hystrix-8002
 info:
   app.name: springcloud
   company.name: kunpeng

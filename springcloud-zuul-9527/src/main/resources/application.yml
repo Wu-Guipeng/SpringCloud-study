@@ -1,0 +1,24 @@
+server:
+  port: 9527
+
+
+spring:
+  application:
+    name: springcloud-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://kunpeng1.com:7001/eureka/,http://kunpeng2.com:7002/eureka/,http://kunpeng3.com:7003/eureka/
+  instance:
+    instance-id: zuul9527.com
+    prefer-ip-address: false
+info:
+  app.name: springcloud
+  company.name: kunpeng
+
+zuul:
+  routes:
+    mydept.serviceId: springcloud-provider-dept
+    mydept.path: /mydept/**
+  ignored-services: springcloud-provider-dept

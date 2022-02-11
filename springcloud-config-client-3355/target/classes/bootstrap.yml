@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: springcloud-config-server-3344
+  cloud:
+    config:
+      uri: http://127.0.0.1:3344
+      name: application-client
+      profile: dev
+      label: main
+
